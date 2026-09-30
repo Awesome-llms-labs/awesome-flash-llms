@@ -1,0 +1,1064 @@
+[
+  {
+    "name": "Gemini 2.5 Flash",
+    "vendor": "Google",
+    "url": "https://ai.google.dev/gemini-api/docs/models",
+    "description": "Google's efficiency-tier flagship: fast multimodal model with 1M-token context at a fraction of Pro pricing.",
+    "price_input_per_1m": "$0.30",
+    "price_output_per_1m": "$2.50",
+    "price_verified": true,
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "1M-token context window",
+      "Batch/Flex API at 50% off ($0.15/$1.25)",
+      "Context caching (~10% of input rate)",
+      "Hosted on Gemini API + Vertex AI",
+      "Tunable thinking levels"
+    ]
+  },
+  {
+    "name": "Gemini 2.5 Flash-Lite",
+    "vendor": "Google",
+    "url": "https://ai.google.dev/gemini-api/docs/models",
+    "description": "Google's cheapest 2.5 model: the fastest, most budget-friendly tier for high-volume simple tasks.",
+    "price_input_per_1m": "$0.10",
+    "price_output_per_1m": "$0.40",
+    "price_verified": true,
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Batch/Flex API at 50% off ($0.05/$0.20)",
+      "Cache reads $0.01/M text",
+      "Best $/task for simple classification/extraction",
+      "Hosted on Gemini API + Vertex AI"
+    ]
+  },
+  {
+    "name": "Gemini 3.8 Flash",
+    "vendor": "Google",
+    "url": "https://ai.google.dev/gemini-api/docs/models",
+    "description": "NEW 2026 (GA Sept 2): billed as the 'most intelligent Flash' — long-horizon software engineering and agents.",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: GA Sept 2, 2026",
+      "~1M context (third-party, unverified)",
+      "Tunable thinking levels (low/medium/high)",
+      "Long-horizon agentic coding"
+    ]
+  },
+  {
+    "name": "Gemini 3.7 Flash",
+    "vendor": "Google",
+    "url": "https://ai.google.dev/gemini-api/docs/models",
+    "description": "NEW 2026: high-speed efficient model for coding and tool use in the Gemini 3 Flash line.",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: 2026 release",
+      "Optimized for coding + tool calling",
+      "Part of official stable catalog"
+    ]
+  },
+  {
+    "name": "Gemini 3.6 Flash",
+    "vendor": "Google",
+    "url": "https://ai.google.dev/gemini-api/docs/models",
+    "description": "NEW 2026: previous-gen multimodal agentic Flash model in the Gemini 3 family.",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: 2026 release",
+      "Multimodal agentic workloads",
+      "Part of official stable catalog"
+    ]
+  },
+  {
+    "name": "Gemini 3.5 Flash",
+    "vendor": "Google",
+    "url": "https://ai.google.dev/gemini-api/docs/models",
+    "description": "NEW 2026: legacy baseline of the Gemini 3 Flash family.",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: 2026 release",
+      "Baseline 3.x Flash tier",
+      "Part of official stable catalog"
+    ]
+  },
+  {
+    "name": "Gemini 3.5 Flash-Lite",
+    "vendor": "Google",
+    "url": "https://ai.google.dev/gemini-api/docs/models",
+    "description": "NEW 2026: fastest, most cost-effective model in the Gemini 3.5 line.",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: 2026 release",
+      "Cheapest 3.5 tier",
+      "Part of official stable catalog"
+    ]
+  },
+  {
+    "name": "Gemini 3.1 Flash-Lite",
+    "vendor": "Google",
+    "url": "https://ai.google.dev/gemini-api/docs/models",
+    "description": "NEW 2026: frontier-class intelligence at a fraction of the cost, per Google.",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: 2026 release",
+      "Budget frontier-class tier",
+      "Part of official stable catalog"
+    ]
+  },
+  {
+    "name": "GPT-6 Luna",
+    "vendor": "OpenAI",
+    "url": "https://developers.openai.com/api/docs/pricing",
+    "description": "NEW 2026 (launched ~Sept 22): OpenAI's new cheap tier — the lowest-priced OpenAI model on the official price sheet.",
+    "price_input_per_1m": "$0.10 (short ctx)",
+    "price_output_per_1m": "$0.50 (short ctx)",
+    "price_verified": true,
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: launched Sept 2026",
+      "Cached input $0.01/M",
+      "Long-context tier $0.20/$0.75",
+      "Responses + Chat Completions APIs"
+    ]
+  },
+  {
+    "name": "GPT-6.1 Sol",
+    "vendor": "OpenAI",
+    "url": "https://developers.openai.com/api/docs/pricing",
+    "description": "NEW 2026 (DevDay Sept 29 launch per third parties): mid-tier model above Luna on the official price sheet.",
+    "price_input_per_1m": "$2.00 (short ctx)",
+    "price_output_per_1m": "$10.00 (short ctx)",
+    "price_verified": true,
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: DevDay 2026 launch",
+      "Cached input $0.10/M",
+      "Long-context tier $4.00/$15.00"
+    ]
+  },
+  {
+    "name": "GPT-5.6 Sol",
+    "vendor": "OpenAI",
+    "url": "https://developers.openai.com/api/docs/pricing",
+    "description": "Promo-priced 5.6-tier model on OpenAI's official price sheet (runs on Cerebras hardware at 750 tok/s per third parties).",
+    "price_input_per_1m": "$4.00 (promo)",
+    "price_output_per_1m": "$20.00 (promo)",
+    "price_verified": true,
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Promo rate on official price sheet",
+      "Cached input $0.40/M",
+      "Hardware-accelerated serving"
+    ]
+  },
+  {
+    "name": "GPT-4o mini",
+    "vendor": "OpenAI",
+    "url": "https://platform.openai.com/docs/models",
+    "description": "The classic OpenAI efficiency tier (2024); superseded on the current official price sheet but still widely served.",
+    "price_input_per_1m": "$0.15 (third-party)",
+    "price_output_per_1m": "$0.60 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "128K context (third-party)",
+      "Widely available via Azure/Bedrock",
+      "Legacy cheap tier"
+    ]
+  },
+  {
+    "name": "GPT-5-mini",
+    "vendor": "OpenAI",
+    "url": "https://platform.openai.com/docs/models",
+    "description": "Mid-2025 efficiency tier of the GPT-5 family; no longer on the current official price sheet.",
+    "price_input_per_1m": "$0.25 (third-party)",
+    "price_output_per_1m": "$2.00 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "400K context (third-party)",
+      "Cached input ~$0.025/M (third-party)",
+      "Reasoning-capable mini"
+    ]
+  },
+  {
+    "name": "GPT-5-nano",
+    "vendor": "OpenAI",
+    "url": "https://platform.openai.com/docs/models",
+    "description": "Cheapest GPT-5 variant (2025); no longer on the current official price sheet.",
+    "price_input_per_1m": "$0.05 (third-party)",
+    "price_output_per_1m": "$0.40 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "400K context (third-party)",
+      "Cached input ~$0.005/M (third-party)",
+      "Nano-scale efficiency"
+    ]
+  },
+  {
+    "name": "Grok Build 0.1",
+    "vendor": "xAI",
+    "url": "https://docs.x.ai/developers/pricing",
+    "description": "NEW: xAI's newest fast tier on the public xAI API, priced for high-volume builds.",
+    "price_input_per_1m": "$1.00 (<200K prompt)",
+    "price_output_per_1m": "$2.00",
+    "price_verified": true,
+    "pricing_url": "https://docs.x.ai/developers/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW fast tier",
+      "256K context",
+      "Cached input $0.20/M",
+      "Public xAI API"
+    ]
+  },
+  {
+    "name": "Grok 4.3",
+    "vendor": "xAI",
+    "url": "https://docs.x.ai/developers/pricing",
+    "description": "xAI's 2026 fast flagship-class model with 1M context on the official price sheet.",
+    "price_input_per_1m": "$1.25",
+    "price_output_per_1m": "$2.50",
+    "price_verified": true,
+    "pricing_url": "https://docs.x.ai/developers/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "1M context",
+      "Cached input $0.20/M",
+      "Batch API 20% off",
+      "OpenAI-compatible https://api.x.ai/v1"
+    ]
+  },
+  {
+    "name": "Grok 4.20",
+    "vendor": "xAI",
+    "url": "https://docs.x.ai/developers/pricing",
+    "description": "Reasoning / non-reasoning / multi-agent variants of the Grok 4 line at 4.3 pricing.",
+    "price_input_per_1m": "$1.25",
+    "price_output_per_1m": "$2.50",
+    "price_verified": true,
+    "pricing_url": "https://docs.x.ai/developers/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Reasoning and multi-agent variants",
+      "Cached input $0.20/M",
+      "Batch API 20% off"
+    ]
+  },
+  {
+    "name": "Grok 4.7 Fast",
+    "vendor": "xAI",
+    "url": "https://docs.x.ai/developers/pricing",
+    "description": "Same Grok 4.7 model on faster infrastructure — premium speed tier, not on the public API.",
+    "price_input_per_1m": "$4.00",
+    "price_output_per_1m": "$12.00",
+    "price_verified": true,
+    "pricing_url": "https://docs.x.ai/developers/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Faster-infra tier",
+      "Only via Cursor and Grok Build",
+      "Cached input $1.00/M"
+    ]
+  },
+  {
+    "name": "Mistral Small 4",
+    "vendor": "Mistral AI",
+    "url": "https://docs.mistral.ai/inference/pricing",
+    "description": "Mistral's current small efficient model — the price/performance workhorse of the lineup.",
+    "price_input_per_1m": "$0.15",
+    "price_output_per_1m": "$0.60",
+    "price_verified": true,
+    "pricing_url": "https://docs.mistral.ai/inference/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Cached input $0.015/M",
+      "Batch API 50% off",
+      "Hosted via Mistral Studio/API"
+    ]
+  },
+  {
+    "name": "Mistral Medium 3.5",
+    "vendor": "Mistral AI",
+    "url": "https://docs.mistral.ai/inference/pricing",
+    "description": "Mid-tier Mistral model balancing capability and cost.",
+    "price_input_per_1m": "$1.50",
+    "price_output_per_1m": "$7.50",
+    "price_verified": true,
+    "pricing_url": "https://docs.mistral.ai/inference/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Cached input $0.15/M",
+      "Batch API 50% off",
+      "Hosted via Mistral Studio/API"
+    ]
+  },
+  {
+    "name": "Ministral 3 8B",
+    "vendor": "Mistral AI",
+    "url": "https://docs.mistral.ai/inference/pricing",
+    "description": "Edge-scale 8B model at near-symmetric input/output pricing.",
+    "price_input_per_1m": "$0.15",
+    "price_output_per_1m": "$0.15",
+    "price_verified": true,
+    "pricing_url": "https://docs.mistral.ai/inference/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Cached input $0.015/M",
+      "Batch API 50% off",
+      "Edge deployment friendly"
+    ]
+  },
+  {
+    "name": "Ministral 3 14B",
+    "vendor": "Mistral AI",
+    "url": "https://docs.mistral.ai/inference/pricing",
+    "description": "14B Ministral variant for on-device and edge serving.",
+    "price_input_per_1m": "$0.20",
+    "price_output_per_1m": "$0.20",
+    "price_verified": true,
+    "pricing_url": "https://docs.mistral.ai/inference/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Cached input $0.02/M",
+      "Batch API 50% off",
+      "Edge deployment friendly"
+    ]
+  },
+  {
+    "name": "Ministral 3 3B",
+    "vendor": "Mistral AI",
+    "url": "https://docs.mistral.ai/inference/pricing",
+    "description": "Tiny 3B model — Mistral's cheapest hosted tier.",
+    "price_input_per_1m": "$0.10",
+    "price_output_per_1m": "$0.10",
+    "price_verified": true,
+    "pricing_url": "https://docs.mistral.ai/inference/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Cached input $0.01/M",
+      "Batch API 50% off",
+      "Smallest hosted tier"
+    ]
+  },
+  {
+    "name": "Codestral",
+    "vendor": "Mistral AI",
+    "url": "https://docs.mistral.ai/inference/pricing",
+    "description": "Mistral's code-specialized efficient model.",
+    "price_input_per_1m": "$0.30",
+    "price_output_per_1m": "$0.90",
+    "price_verified": true,
+    "pricing_url": "https://docs.mistral.ai/inference/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Cached input $0.03/M",
+      "Code-specialized",
+      "~256K context (third-party, unverified)"
+    ]
+  },
+  {
+    "name": "Command A+",
+    "vendor": "Cohere",
+    "url": "https://docs.cohere.com/docs/models",
+    "description": "NEW (May 2026): Cohere's MoE flagship for agents — vision, reasoning, Azure-deployable.",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: May 2026",
+      "128K context / 64K output",
+      "MoE architecture",
+      "Per-token pricing no longer published"
+    ]
+  },
+  {
+    "name": "Command A",
+    "vendor": "Cohere",
+    "url": "https://docs.cohere.com/docs/models",
+    "description": "Efficient Cohere model with 150% higher throughput than Command R+ 08-2024.",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "256K context / 8K output",
+      "First-party Chat API + OCI/SageMaker/Azure",
+      "Per-token pricing no longer published"
+    ]
+  },
+  {
+    "name": "Command R7B",
+    "vendor": "Cohere",
+    "url": "https://docs.cohere.com/docs/models",
+    "description": "Small/fast Cohere model for RAG and low-latency tasks.",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "128K context / 4K output",
+      "Small-model efficiency",
+      "Per-token pricing no longer published"
+    ]
+  },
+  {
+    "name": "Command R / R+ (08-2024)",
+    "vendor": "Cohere",
+    "url": "https://docs.cohere.com/docs/models",
+    "description": "Cohere's 2024 RAG-optimized models; older aliases deprecated Sept 2025.",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "128K context / 4K output",
+      "RAG-optimized",
+      "Per-token pricing no longer published"
+    ]
+  },
+  {
+    "name": "Claude Haiku 4.5",
+    "vendor": "Anthropic",
+    "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "description": "NEW (Oct 2025): Anthropic's fastest Claude with near-frontier intelligence — the Haiku efficiency tier.",
+    "price_input_per_1m": "$1.00",
+    "price_output_per_1m": "$5.00",
+    "price_verified": true,
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: snapshot 2025-10-01",
+      "200K input / 64K output",
+      "Prompt cache read 0.1x ($0.10)",
+      "Batch API 50% off",
+      "Also on Bedrock + Google Cloud"
+    ]
+  },
+  {
+    "name": "Nova Micro",
+    "vendor": "Amazon",
+    "url": "https://aws.amazon.com/bedrock/pricing",
+    "description": "Amazon's cheapest Nova model on Bedrock — text-only speed tier.",
+    "price_input_per_1m": "$0.035 (third-party)",
+    "price_output_per_1m": "$0.14 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Bedrock on-demand",
+      "Batch pricing 50% off (confirmed)",
+      "Cheapest Nova tier"
+    ]
+  },
+  {
+    "name": "Nova Lite",
+    "vendor": "Amazon",
+    "url": "https://aws.amazon.com/bedrock/pricing",
+    "description": "Amazon's multimodal efficiency tier on Bedrock.",
+    "price_input_per_1m": "$0.06 (third-party)",
+    "price_output_per_1m": "$0.24 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Bedrock on-demand",
+      "Multimodal",
+      "Batch pricing 50% off (confirmed)"
+    ]
+  },
+  {
+    "name": "DeepSeek V4.1 Flash",
+    "vendor": "DeepSeek",
+    "url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "description": "NEW 2026 (GA Sept 2026): DeepSeek's flash tier — 1M context, vision, thinking/non-thinking modes, aggressive cache pricing.",
+    "price_input_per_1m": "$0.30 (peak miss)",
+    "price_output_per_1m": "$1.20 (peak)",
+    "price_verified": true,
+    "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: GA Sept 2026",
+      "1M context / 384K output",
+      "Off-peak 50% off ($0.15/$0.60)",
+      "Cache-hit input $0.006/M",
+      "OpenAI-compatible + Anthropic endpoint"
+    ]
+  },
+  {
+    "name": "DeepSeek V4 Pro",
+    "vendor": "DeepSeek",
+    "url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "description": "NEW 2026 (GA Aug 13): higher-capability V4 tier with permanent 75% price cut (May 2026).",
+    "price_input_per_1m": "$1.32 (peak miss)",
+    "price_output_per_1m": "$3.96 (peak)",
+    "price_verified": true,
+    "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: GA Aug 2026",
+      "1M context, text-only",
+      "Off-peak 50% off",
+      "Cache-hit input $0.044/M"
+    ]
+  },
+  {
+    "name": "DeepSeek V3.2 (chat/reasoner)",
+    "vendor": "DeepSeek",
+    "url": "https://api-docs.deepseek.com/",
+    "description": "Previous-gen DeepSeek chat/reasoning models — no longer on the official pricing page.",
+    "price_input_per_1m": "$0.28 (third-party)",
+    "price_output_per_1m": "$0.42 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "maintenance",
+    "category": "model",
+    "features": [
+      "128K context (third-party)",
+      "Legacy tier",
+      "Superseded by V4 line"
+    ]
+  },
+  {
+    "name": "Qwen3.8 Flash",
+    "vendor": "Alibaba",
+    "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "description": "NEW 2026 (launched Aug 26): Alibaba's flagship flash model — 1M context at $0.15/M input.",
+    "price_input_per_1m": "$0.15",
+    "price_output_per_1m": "$0.47",
+    "price_verified": true,
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: Aug 26, 2026",
+      "1M context",
+      "90-day 1M-token free quota (Singapore)",
+      "Cache-hit ~10% of input",
+      "Apache 2.0 weights"
+    ]
+  },
+  {
+    "name": "Qwen3.8 Omni Flash",
+    "vendor": "Alibaba",
+    "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "description": "NEW 2026 (Sept 18): omni-modal (text/image/audio/video) flash variant, API-only.",
+    "price_input_per_1m": "$0.15",
+    "price_output_per_1m": "$0.47",
+    "price_verified": true,
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: Sept 18, 2026",
+      "1M context, omni-modal",
+      "Cache-hit $0.016/M",
+      "API-only release"
+    ]
+  },
+  {
+    "name": "Qwen3.5 Flash",
+    "vendor": "Alibaba",
+    "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "description": "Cost-efficient Qwen3.5-tier flash model with 1M context.",
+    "price_input_per_1m": "$0.10",
+    "price_output_per_1m": "$0.40",
+    "price_verified": true,
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "1M context",
+      "50% batch discounts",
+      "OpenAI-compatible endpoints"
+    ]
+  },
+  {
+    "name": "Qwen3.7 Flash",
+    "vendor": "Alibaba",
+    "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "description": "Tiered-pricing flash model — entry tier among the cheapest hosted options anywhere.",
+    "price_input_per_1m": "$0.03 (<=32K)",
+    "price_output_per_1m": "$0.13 (<=32K)",
+    "price_verified": true,
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Tiered by context (up to 1M)",
+      "Higher tiers priced separately",
+      "OpenAI-compatible endpoints"
+    ]
+  },
+  {
+    "name": "Qwen Flash",
+    "vendor": "Alibaba",
+    "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "description": "The renamed current default flash tier (successor to Qwen-Turbo).",
+    "price_input_per_1m": "$0.05 (<=256K)",
+    "price_output_per_1m": "$0.40",
+    "price_verified": true,
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Successor to Qwen-Turbo",
+      "OpenAI-compatible endpoints",
+      "50% batch discounts"
+    ]
+  },
+  {
+    "name": "Qwen Turbo",
+    "vendor": "Alibaba",
+    "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "description": "Legacy turbo tier — page notes it 'will no longer be updated; switch to Qwen-Flash'.",
+    "price_input_per_1m": "$0.05",
+    "price_output_per_1m": "$0.20",
+    "price_verified": true,
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "status": "maintenance",
+    "category": "model",
+    "features": [
+      "Deprecated in favor of Qwen-Flash",
+      "Still listed on pricing page"
+    ]
+  },
+  {
+    "name": "Qwen3 Coder Flash",
+    "vendor": "Alibaba",
+    "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "description": "Code-specialized flash variant of the Qwen3 line.",
+    "price_input_per_1m": "$0.30 (<=32K)",
+    "price_output_per_1m": "$1.50",
+    "price_verified": true,
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Code-specialized",
+      "Tiered context pricing",
+      "OpenAI-compatible endpoints"
+    ]
+  },
+  {
+    "name": "GLM-5.3 Flash",
+    "vendor": "Zhipu AI",
+    "url": "https://docs.z.ai/guides/overview/pricing",
+    "description": "NEW 2026 (released ~Aug 18): Zhipu's current flash flagship at $0.15/M input.",
+    "price_input_per_1m": "$0.15",
+    "price_output_per_1m": "$0.50",
+    "price_verified": true,
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: Aug 2026",
+      "Cached input $0.03/M",
+      "Cache storage limited-time free",
+      "OpenAI-compatible + /anthropic"
+    ]
+  },
+  {
+    "name": "GLM-5.3 FlashX",
+    "vendor": "Zhipu AI",
+    "url": "https://docs.z.ai/guides/overview/pricing",
+    "description": "Higher-throughput FlashX variant of GLM-5.3.",
+    "price_input_per_1m": "$0.37",
+    "price_output_per_1m": "$1.25",
+    "price_verified": true,
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "FlashX speed tier",
+      "Cached input $0.075/M",
+      "OpenAI-compatible + /anthropic"
+    ]
+  },
+  {
+    "name": "GLM-4.7 FlashX",
+    "vendor": "Zhipu AI",
+    "url": "https://docs.z.ai/guides/overview/pricing",
+    "description": "Cheapest paid GLM tier on the official price sheet.",
+    "price_input_per_1m": "$0.07",
+    "price_output_per_1m": "$0.40",
+    "price_verified": true,
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Cached input $0.01/M",
+      "Budget pick",
+      "OpenAI-compatible + /anthropic"
+    ]
+  },
+  {
+    "name": "GLM-4.5 Air",
+    "vendor": "Zhipu AI",
+    "url": "https://docs.z.ai/guides/overview/pricing",
+    "description": "Lightweight GLM-4.5 variant for cost-sensitive workloads.",
+    "price_input_per_1m": "$0.20",
+    "price_output_per_1m": "$1.10",
+    "price_verified": true,
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Cached input $0.03/M",
+      "OpenAI-compatible + /anthropic"
+    ]
+  },
+  {
+    "name": "GLM-4.7 Flash / 4.5 Flash / 4.6V Flash",
+    "vendor": "Zhipu AI",
+    "url": "https://docs.z.ai/guides/overview/pricing",
+    "description": "FREE on all columns of the official price table — zero-cost flash tier including a vision variant.",
+    "price_input_per_1m": "$0.00 (free)",
+    "price_output_per_1m": "$0.00 (free)",
+    "price_verified": true,
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "FREE API tier",
+      "Includes vision variant (4.6V)",
+      "OpenAI-compatible + /anthropic"
+    ]
+  },
+  {
+    "name": "Kimi K3",
+    "vendor": "Moonshot AI",
+    "url": "https://platform.kimi.ai/docs/pricing/chat-k25",
+    "description": "NEW 2026: Moonshot's 2.8T-param frontier model with 1M context.",
+    "price_input_per_1m": "$3.00 (third-party)",
+    "price_output_per_1m": "$15.00 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: 2026",
+      "2.8T params, 1M context",
+      "api.moonshot.ai (OpenAI-compatible)",
+      "Older models discontinued Aug 31, 2026"
+    ]
+  },
+  {
+    "name": "Kimi K2.7 Code",
+    "vendor": "Moonshot AI",
+    "url": "https://platform.kimi.ai/docs/pricing/chat-k25",
+    "description": "NEW 2026 (Jun 12): code-specialized Kimi with a 2x-priced highspeed variant (~180-260 tok/s).",
+    "price_input_per_1m": "$0.95 (third-party)",
+    "price_output_per_1m": "$4.00 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: Jun 12, 2026",
+      "262K context",
+      "Highspeed variant $1.90/$8.00",
+      "Automatic context caching"
+    ]
+  },
+  {
+    "name": "Kimi K2.7 Code Highspeed",
+    "vendor": "Moonshot AI",
+    "url": "https://platform.kimi.ai/docs/pricing/chat-k25",
+    "description": "2x-priced speed tier of K2.7 Code (~180-260 tok/s) for latency-sensitive coding agents.",
+    "price_input_per_1m": "$1.90 (third-party)",
+    "price_output_per_1m": "$8.00 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: 2026",
+      "~180-260 tok/s",
+      "2x standard K2.7 pricing"
+    ]
+  },
+  {
+    "name": "Kimi K2.6",
+    "vendor": "Moonshot AI",
+    "url": "https://platform.kimi.ai/docs/pricing/chat-k25",
+    "description": "NEW 2026 (Apr): multimodal + thinking Kimi model, 262K context.",
+    "price_input_per_1m": "$0.95 (third-party)",
+    "price_output_per_1m": "$4.00 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: Apr 2026",
+      "262K context, multimodal",
+      "Cache-hit ~$0.16/M (third-party)"
+    ]
+  },
+  {
+    "name": "MiniMax M3",
+    "vendor": "MiniMax",
+    "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "description": "NEW 2026: MiniMax flagship with 1M context — permanently 50% off list price.",
+    "price_input_per_1m": "$0.30 (<=512K)",
+    "price_output_per_1m": "$1.20",
+    "price_verified": true,
+    "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: 2026",
+      "1M context (>512K input $0.60/$2.40)",
+      "Permanent 50% off",
+      "Cache-read $0.06/M",
+      "MIT-licensed weights"
+    ]
+  },
+  {
+    "name": "MiniMax M2.7",
+    "vendor": "MiniMax",
+    "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "description": "Current MiniMax workhorse tier with cheap cache reads.",
+    "price_input_per_1m": "$0.30",
+    "price_output_per_1m": "$1.20",
+    "price_verified": true,
+    "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "~205K context (third-party)",
+      "Cache-read $0.06/M",
+      "Priority tier 1.5x",
+      "MIT-licensed weights"
+    ]
+  },
+  {
+    "name": "MiniMax M2.7 Highspeed",
+    "vendor": "MiniMax",
+    "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "description": "2x-priced speed tier of M2.7.",
+    "price_input_per_1m": "$0.60",
+    "price_output_per_1m": "$2.40",
+    "price_verified": true,
+    "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "2x standard pricing",
+      "Cache-read $0.06/M",
+      "Latency-optimized"
+    ]
+  },
+  {
+    "name": "MiniMax M2.5 / M2.1 / M2",
+    "vendor": "MiniMax",
+    "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "description": "Legacy MiniMax tiers (highspeed variants at 2x) still on the price sheet.",
+    "price_input_per_1m": "$0.30",
+    "price_output_per_1m": "$1.20",
+    "price_verified": true,
+    "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "status": "maintenance",
+    "category": "model",
+    "features": [
+      "Legacy tiers",
+      "Highspeed 2x variants",
+      "Cache-read $0.03/M"
+    ]
+  },
+  {
+    "name": "MiMo V2.6 Flash",
+    "vendor": "Xiaomi",
+    "url": "https://mimo.mi.com/docs/en-US/price/pay-as-you-go",
+    "description": "NEW 2026 (Sept 21-22): omni-modal open-weight efficiency standout — $0.14/M input with near-free cache hits.",
+    "price_input_per_1m": "$0.14 (miss)",
+    "price_output_per_1m": "$0.28",
+    "price_verified": true,
+    "pricing_url": "https://mimo.mi.com/docs/en-US/price/pay-as-you-go",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: Sept 2026",
+      "1M context, omni-modal (third-party)",
+      "Cache-hit $0.0028/M",
+      "Cache write limited-time free",
+      "Batch API 50% off",
+      "MIT weights"
+    ]
+  },
+  {
+    "name": "MiMo V2.6 Pro",
+    "vendor": "Xiaomi",
+    "url": "https://mimo.mi.com/docs/en-US/price/pay-as-you-go",
+    "description": "Higher-capability MiMo tier (v2.5 series deprecated Oct 21, 2026).",
+    "price_input_per_1m": "$0.435 (miss)",
+    "price_output_per_1m": "$0.87",
+    "price_verified": true,
+    "pricing_url": "https://mimo.mi.com/docs/en-US/price/pay-as-you-go",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Cache-hit $0.0036/M",
+      "Batch API 50% off",
+      "MIT weights"
+    ]
+  },
+  {
+    "name": "Step 3.7 Flash",
+    "vendor": "StepFun",
+    "url": "https://github.com/stepfun-ai/Step-3.7-Flash",
+    "description": "NEW 2026 (May 28): 198B sparse MoE (~11B active), up to 400 tok/s, 3 selectable reasoning levels, Apache 2.0.",
+    "price_input_per_1m": "$0.20 (miss)",
+    "price_output_per_1m": "$1.15",
+    "price_verified": true,
+    "pricing_url": "https://github.com/stepfun-ai/Step-3.7-Flash",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: May 28, 2026",
+      "256K context",
+      "Cache-hit $0.04/M",
+      "Up to 400 tok/s",
+      "Apache 2.0 weights"
+    ]
+  },
+  {
+    "name": "Step 3.5 Flash",
+    "vendor": "StepFun",
+    "url": "https://github.com/stepfun-ai",
+    "description": "Earlier 2026 flash model (Jan 29); pricing from OpenRouter and third parties.",
+    "price_input_per_1m": "$0.10 (third-party)",
+    "price_output_per_1m": "$0.30 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: Jan 29, 2026",
+      "262K context (third-party)",
+      "Cache-hit ~$0.02/M (third-party)"
+    ]
+  },
+  {
+    "name": "ERNIE 4.5 Turbo",
+    "vendor": "Baidu",
+    "url": "https://cloud.baidu.com/product/qianfan",
+    "description": "Baidu's turbo efficiency tier — ~80% off ERNIE 4.5 pricing (figures from Baidu PR + third parties).",
+    "price_input_per_1m": "$0.11 (third-party)",
+    "price_output_per_1m": "$0.44 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "128K context (third-party)",
+      "Qianfan platform",
+      "CNY pricing converted"
+    ]
+  },
+  {
+    "name": "ERNIE X1 Turbo",
+    "vendor": "Baidu",
+    "url": "https://cloud.baidu.com/product/qianfan",
+    "description": "Baidu's efficient reasoning model tier.",
+    "price_input_per_1m": "$0.14 (third-party)",
+    "price_output_per_1m": "$0.55 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "Reasoning-capable",
+      "Qianfan platform",
+      "CNY pricing converted"
+    ]
+  },
+  {
+    "name": "ERNIE 5.1",
+    "vendor": "Baidu",
+    "url": "https://cloud.baidu.com/product/qianfan",
+    "description": "NEW 2026: Baidu's flagship ERNIE release.",
+    "price_input_per_1m": "$0.59 (third-party)",
+    "price_output_per_1m": "$2.65 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "model",
+    "features": [
+      "NEW: 2026",
+      "Flagship tier",
+      "Qianfan platform"
+    ]
+  }
+]

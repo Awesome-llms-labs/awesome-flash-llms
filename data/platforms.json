@@ -1,0 +1,505 @@
+[
+  {
+    "name": "Groq",
+    "vendor": "Groq",
+    "url": "https://groq.com",
+    "description": "LPU inference-chip cloud: 394-1,000 tok/s on open models, 50-100ms TTFT, rate-limited free tier.",
+    "price_input_per_1m": "$0.59 (Llama 3.3 70B, third-party)",
+    "price_output_per_1m": "$0.79 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "Proprietary LPU chips (+ new LPX line)",
+      "Llama 3.x/4.x, Qwen3, DeepSeek, GPT-OSS",
+      "Free tier, no card required",
+      "OpenAI-compatible https://api.groq.com/openai/v1",
+      "EU datacenter (Helsinki)"
+    ]
+  },
+  {
+    "name": "Cerebras",
+    "vendor": "Cerebras",
+    "url": "https://inference-docs.cerebras.ai",
+    "description": "Wafer-Scale Engine inference: GPT-OSS 120B at ~3,000 tok/s — the raw-speed leader on supported models.",
+    "price_input_per_1m": "$0.35 (gpt-oss-120b)",
+    "price_output_per_1m": "$0.75 (gpt-oss-120b)",
+    "price_verified": true,
+    "pricing_url": "https://inference-docs.cerebras.ai/api-reference/models/public-models",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "WSE-3 wafer-scale chips, weights on SRAM",
+      "gpt-oss-120b + qwen-3.8-27b catalog",
+      "$5 signup credit free tier",
+      "OpenAI-compatible https://api.cerebras.ai/v1",
+      "Publicly traded (CBRS)"
+    ]
+  },
+  {
+    "name": "Together AI",
+    "vendor": "Together AI",
+    "url": "https://www.together.ai",
+    "description": "GPU cloud with 200+ open-weight models: serverless + dedicated, fine-tuning, 50%-off batch.",
+    "price_input_per_1m": "$0.15 (gpt-oss-120b)",
+    "price_output_per_1m": "$0.60 (gpt-oss-120b)",
+    "price_verified": true,
+    "pricing_url": "https://www.together.ai/models/gpt-oss-120b",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "Llama/Qwen/DeepSeek/Kimi/MiniMax/GLM-5.x",
+      "Fine-tuning (LoRA/SFT/DPO)",
+      "Dedicated endpoints, scale-to-zero",
+      "OpenAI-compatible https://api.together.xyz/v1"
+    ]
+  },
+  {
+    "name": "Fireworks AI",
+    "vendor": "Fireworks AI",
+    "url": "https://fireworks.ai",
+    "description": "GPU cloud, 100+ open models with Fast-mode speed tiers and 50%-off batch; strong DeepSeek/Qwen/Kimi catalog.",
+    "price_input_per_1m": "$0.30 (DeepSeek V4.1 Flash)",
+    "price_output_per_1m": "$1.20 (DeepSeek V4.1 Flash)",
+    "price_verified": true,
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "DeepSeek V4.1 Flash $0.30/$0.006 cached/$1.20",
+      "GLM 5.3 Flash $0.15/$0.03/$0.50",
+      "gpt-oss-120b $0.15/$0.015/$0.60",
+      "Size-tiered fallback pricing",
+      "OpenAI-compatible"
+    ]
+  },
+  {
+    "name": "OpenRouter",
+    "vendor": "OpenRouter",
+    "url": "https://openrouter.ai",
+    "description": "Aggregation gateway: one OpenAI-compatible API routing to 300+ models across 60+ providers, no inference markup.",
+    "price_input_per_1m": "varies (provider rate)",
+    "price_output_per_1m": "varies (provider rate)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "Fallback routing + provider failover",
+      ":free model pool (50-1,000 req/day)",
+      "BYOK option",
+      "OpenAI-compatible by design"
+    ]
+  },
+  {
+    "name": "DeepInfra",
+    "vendor": "DeepInfra",
+    "url": "https://deepinfra.com",
+    "description": "NVIDIA GPU cloud positioned on price leadership — among the cheapest per-token rates anywhere.",
+    "price_input_per_1m": "$0.09 (DeepSeek-V4-Flash)",
+    "price_output_per_1m": "$0.18 (DeepSeek-V4-Flash)",
+    "price_verified": true,
+    "pricing_url": "https://deepinfra.com/pricing",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "DeepSeek-V4-Flash $0.09/$0.18",
+      "Llama-3.3-70B-Turbo $0.10/$0.32",
+      "Llama-3.1-8B-Turbo $0.02/$0.04",
+      "Cached-input discounts",
+      "Zero-retention serving",
+      "OpenAI-compatible"
+    ]
+  },
+  {
+    "name": "SambaNova",
+    "vendor": "SambaNova",
+    "url": "https://cloud.sambanova.ai",
+    "description": "SN40L RDU dataflow-chip cloud: full 16-bit precision at high speed (Llama 3.1 70B at 461 tok/s).",
+    "price_input_per_1m": "$0.60 (Llama 3.3 70B, third-party)",
+    "price_output_per_1m": "$1.20 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "SN40L three-tier dataflow architecture",
+      "Full-precision serving",
+      "On-prem/SaaS hybrid",
+      "OpenAI-compatible https://api.sambanova.ai/v1"
+    ]
+  },
+  {
+    "name": "Nebius Token Factory",
+    "vendor": "Nebius",
+    "url": "https://tokenfactory.nebius.com",
+    "description": "GPU cloud (~90 model variants) publishing per-model tok/s; shared per-token + dedicated endpoints, EU datacenters.",
+    "price_input_per_1m": "$0.14 (DeepSeek-V4-Flash-0731)",
+    "price_output_per_1m": "$0.28 (DeepSeek-V4-Flash-0731)",
+    "price_verified": true,
+    "pricing_url": "https://tokenfactory.nebius.com/api/public/models_info",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "DeepSeek-V4-Flash-0731 $0.14/$0.28",
+      "MiniMax-M3 $0.30/$1.20, 248 tok/s",
+      "gpt-oss-120b $0.15/$0.60",
+      "Nasdaq-listed neocloud",
+      "OpenAI-compatible"
+    ]
+  },
+  {
+    "name": "Baseten",
+    "vendor": "Baseten",
+    "url": "https://www.baseten.co/",
+    "description": "Serverless inference + dedicated GPUs on a managed TensorRT-LLM stack; per-minute billing, no idle cost.",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "Pre-optimized open-weight Model APIs",
+      "Truss OSS packaging framework",
+      "Fractional GPUs via MIG",
+      "Cold starts cut 2-3x (Mar 2026)",
+      "OpenAI-compatible",
+      "SOC 2 Type II, HIPAA"
+    ]
+  },
+  {
+    "name": "Novita AI",
+    "vendor": "Novita AI",
+    "url": "https://novita.ai",
+    "description": "Serverless inference API with 100+ models and aggressively low per-token pricing incl. free tiers.",
+    "price_input_per_1m": "$0.14 (DeepSeek V4 Flash)",
+    "price_output_per_1m": "$0.28 (DeepSeek V4 Flash)",
+    "price_verified": true,
+    "pricing_url": "https://novita.ai/pricing",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "DeepSeek V4 Flash $0.14/$0.28",
+      "GLM 5.3 Flash $0.15/$0.50",
+      "Qwen3.8 Flash $0.15/$0.47",
+      "Ling Flash models FREE",
+      "Batch 50% off",
+      "OpenAI-compatible"
+    ]
+  },
+  {
+    "name": "Chutes",
+    "vendor": "Chutes",
+    "url": "https://chutes.ai/",
+    "description": "Decentralized serverless inference on Bittensor Subnet 64 — 100% of models in Intel TDX TEEs, settled onchain in USDC.",
+    "price_input_per_1m": "single-digit cents/1M (third-party)",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "GPU miners serve models",
+      "Confidential compute (TDX)",
+      "OpenAI-compatible https://llm.chutes.ai/v1",
+      "Attestation evidence API"
+    ]
+  },
+  {
+    "name": "Modal",
+    "vendor": "Modal",
+    "url": "https://modal.com/",
+    "description": "Python-first serverless GPU platform — deploy your own vLLM-wrapped models, per-second billing, autoscale to zero.",
+    "price_input_per_1m": "per-second GPU billing",
+    "price_output_per_1m": "n/a (bring your own model)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "Any model you deploy (vLLM common)",
+      "No idle cost",
+      "$30/mo free credits (third-party)",
+      "Cold starts 10-30s for large models"
+    ]
+  },
+  {
+    "name": "Replicate",
+    "vendor": "Replicate",
+    "url": "https://replicate.com/",
+    "description": "Model marketplace + serverless inference with Cog packaging for custom models; thousands of community models.",
+    "price_input_per_1m": "per-second GPU billing",
+    "price_output_per_1m": "varies",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "Cog custom-model packaging",
+      "Auto-scale to zero",
+      "OpenAI-compatible unified API",
+      "No free tier (third-party)"
+    ]
+  },
+  {
+    "name": "Hugging Face Inference Providers",
+    "vendor": "Hugging Face",
+    "url": "https://huggingface.co/docs/api-inference/",
+    "description": "Gateway routing one OpenAI-compatible endpoint across 18 partner providers with :fastest / :cheapest policies.",
+    "price_input_per_1m": "no markup on provider rates",
+    "price_output_per_1m": "no markup on provider rates",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "18 verified partners (Groq, Cerebras, DeepInfra, Together...)",
+      ":cheapest picks best $/perf pair",
+      "Auto-failover",
+      "Free tier exists",
+      "https://router.huggingface.co/v1"
+    ]
+  },
+  {
+    "name": "Cloudflare Workers AI",
+    "vendor": "Cloudflare",
+    "url": "https://www.cloudflare.com/products/workers-ai/",
+    "description": "Serverless inference on Cloudflare's edge GPU network in 200+ cities; pay-per-inference, no idle costs.",
+    "price_input_per_1m": "$0.088/1M in (Llama 3.1 8B, third-party)",
+    "price_output_per_1m": "$0.606/1M out (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "~80 models (Llama, Qwen, Gemma, DeepSeek distills)",
+      "10,000 neurons/day free (third-party)",
+      "env.AI.run() in Workers",
+      "OpenAI-compatible REST",
+      "AI Gateway caching"
+    ]
+  },
+  {
+    "name": "Parasail",
+    "vendor": "Parasail",
+    "url": "https://parasail.io/",
+    "description": "vLLM-based 'AI Supercloud' across 40 DCs with day-zero open-model support; batch 80-90% cheaper than realtime.",
+    "price_input_per_1m": "$0.14 (deepseek-v4-flash, third-party)",
+    "price_output_per_1m": "$0.28 (third-party)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "Founded by former Groq CPO",
+      "gpt-oss-120b $0.10/$0.75 (third-party)",
+      "Serverless free tier 5 RPM (third-party)",
+      "OpenAI-compatible",
+      "$32M Series A Apr 2026"
+    ]
+  },
+  {
+    "name": "Hyperbolic",
+    "vendor": "Hyperbolic",
+    "url": "https://hyperbolic.xyz/",
+    "description": "Open-access AI cloud + decentralized GPU marketplace: serverless inference (25+ open LLMs) and GPU rentals.",
+    "price_input_per_1m": "pay-per-token (unverified)",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "OpenAI-compatible chat completions",
+      "Marketplace RTX 4090 from $0.50/hr (third-party)",
+      "Claims 75% cheaper than hyperscalers"
+    ]
+  },
+  {
+    "name": "Lambda",
+    "vendor": "Lambda Labs",
+    "url": "https://lambdalabs.com/",
+    "description": "GPU cloud (dedicated rentals) plus a Lambda Inference API; inference catalog status unverified for 2026.",
+    "price_input_per_1m": "$0.02-$0.90/1M at launch (third-party)",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "Dedicated H100 SXM $3.99/hr (third-party)",
+      "Pay-per-minute, no egress fees",
+      "Inference API launched Dec 2024"
+    ]
+  },
+  {
+    "name": "fal.ai",
+    "vendor": "fal",
+    "url": "https://fal.ai/",
+    "description": "Serverless GPU cloud specialized in generative media (image/video/audio) — minimal LLM relevance; listed for completeness.",
+    "price_input_per_1m": "per-output / per-GPU-second",
+    "price_output_per_1m": "n/a (media models)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "platform",
+    "features": [
+      "1,000+ media models (FLUX, Kling, Veo)",
+      "1.5M+ developers",
+      "Not an LLM serving platform"
+    ]
+  },
+  {
+    "name": "vLLM",
+    "vendor": "vLLM Project",
+    "url": "https://github.com/vllm-project/vllm",
+    "description": "High-throughput serving engine (PagedAttention + continuous batching) with OpenAI-compatible server — the de-facto baseline.",
+    "price_input_per_1m": "n/a (self-hosted)",
+    "price_output_per_1m": "n/a (self-hosted)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "selfhost",
+    "features": [
+      "Apache-2.0 (verified)",
+      "GPTQ/AWQ/FP8/Marlin quantization",
+      "Speculative decoding",
+      "Tensor/data/expert parallelism",
+      "Maximizes tokens/sec/$ on rented GPUs"
+    ]
+  },
+  {
+    "name": "SGLang",
+    "vendor": "SGLang Project",
+    "url": "https://github.com/sgl-project/sglang",
+    "description": "High-performance serving with RadixAttention prefix caching — excels at structured outputs and agentic workloads.",
+    "price_input_per_1m": "n/a (self-hosted)",
+    "price_output_per_1m": "n/a (self-hosted)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "selfhost",
+    "features": [
+      "Apache-2.0 (verified)",
+      "Day-0 open-model support",
+      "Disaggregated prefill (3.8x/4.8x gains)",
+      "Speculative decoding",
+      "Prefix caching slashes agentic cost"
+    ]
+  },
+  {
+    "name": "Ollama",
+    "vendor": "Ollama",
+    "url": "https://github.com/ollama/ollama",
+    "description": "Dead-simple local LLM runtime: pull, quantize, and serve hundreds of models behind a local OpenAI-compatible API.",
+    "price_input_per_1m": "$0 (after hardware)",
+    "price_output_per_1m": "$0 (after hardware)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "selfhost",
+    "features": [
+      "MIT (verified)",
+      "Hundreds of pre-quantized models",
+      "llama.cpp + Apple MLX engines",
+      "v0.34.0, 176K+ stars",
+      "Zero marginal cost"
+    ]
+  },
+  {
+    "name": "llama.cpp",
+    "vendor": "ggml-org",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "description": "Pure C/C++ inference + the GGUF format standard — runs everywhere from laptops to servers.",
+    "price_input_per_1m": "$0 (after hardware)",
+    "price_output_per_1m": "$0 (after hardware)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "selfhost",
+    "features": [
+      "MIT (verified)",
+      "K-quants + imatrix 2-8-bit",
+      "Built-in llama-server (OpenAI-compatible)",
+      "Best on non-NVIDIA hardware",
+      "Foundation under Ollama/LM Studio"
+    ]
+  },
+  {
+    "name": "TensorRT-LLM",
+    "vendor": "NVIDIA",
+    "url": "https://github.com/NVIDIA/TensorRT-LLM",
+    "description": "NVIDIA's library for maximum LLM inference performance on NVIDIA GPUs via TensorRT-compiled engines.",
+    "price_input_per_1m": "n/a (self-hosted)",
+    "price_output_per_1m": "n/a (self-hosted)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "selfhost",
+    "features": [
+      "Apache-2.0 (verified)",
+      "FP8/INT4/FP4 on Hopper",
+      "In-flight batching, XQA kernels",
+      "24K+ tok/s on Llama 3 (cited)",
+      "Engine under Baseten Model APIs"
+    ]
+  },
+  {
+    "name": "LMDeploy",
+    "vendor": "InternLM",
+    "url": "https://github.com/InternLM/lmdeploy",
+    "description": "InternLM team's compress/deploy/serve toolkit — quantization-first cost story for Qwen/DeepSeek/InternLM families.",
+    "price_input_per_1m": "n/a (self-hosted)",
+    "price_output_per_1m": "n/a (self-hosted)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "category": "selfhost",
+    "features": [
+      "Apache-2.0 (verified)",
+      "TurboMind backend",
+      "W8A8/W4A16 + KV-cache quantization",
+      "Prefix caching",
+      "~1.8x throughput vs vLLM (own docs)"
+    ]
+  },
+  {
+    "name": "TGI",
+    "vendor": "Hugging Face",
+    "url": "https://github.com/huggingface/text-generation-inference",
+    "description": "HF's production serving toolkit (Rust+Python) — archived upstream; recommend vLLM/SGLang for new deployments.",
+    "price_input_per_1m": "n/a (self-hosted)",
+    "price_output_per_1m": "n/a (self-hosted)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "archived",
+    "category": "selfhost",
+    "features": [
+      "Apache-2.0 (verified)",
+      "ARCHIVED upstream (maintenance mode)",
+      "Continuous batching, tensor parallel",
+      "Still a proven cost-efficient baseline"
+    ]
+  },
+  {
+    "name": "TensorZero",
+    "vendor": "TensorZero",
+    "url": "https://github.com/tensorzero/tensorzero",
+    "description": "LLMOps gateway + observability + eval + optimization — the cost-control layer (cheapest-provider routing). Upstream archived June 2026; use a live fork.",
+    "price_input_per_1m": "n/a (self-hosted)",
+    "price_output_per_1m": "n/a (self-hosted)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "archived",
+    "category": "selfhost",
+    "features": [
+      "Apache-2.0 (verified)",
+      "ARCHIVED upstream 2026-06-12",
+      "Automatic cheapest-provider routing",
+      "Prompt-caching policies",
+      "Feedback-driven model downgrades"
+    ]
+  }
+]
