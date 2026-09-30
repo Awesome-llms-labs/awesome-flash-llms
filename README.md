@@ -37,6 +37,7 @@
 - [Self-hosting stacks](#self-hosting-stacks) — serve efficient models yourself
 - [Benchmarks & eval notes](#benchmarks--eval-notes)
 - [Guides](#guides)
+- [Related repositories](#related-repositories)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -237,6 +238,13 @@ Serve efficient open-weight models yourself — zero per-token cost after hardwa
 ## Related repositories
 
 - [awesome-fast-llms](https://github.com/dakotac1994/awesome-fast-llms) — sibling list: LLM inference **speed** — low latency/TTFT and high throughput (tok/s), with every speed claim sourced, dated, and labeled vendor-reported vs independent. (This list covers cost-performance.)
+
+## Related repositories
+
+- [awesome-flagship-llms](https://github.com/dakotac1994/awesome-flagship-llms) — sibling list: flagship frontier LLMs, pricing, and benchmarks.
+- [awesome-fast-llms](https://github.com/dakotac1994/awesome-fast-llms) — sibling list: inference-speed LLMs, providers, engines, and optimization techniques.
+- [awesome-free-llms](https://github.com/dakotac1994/awesome-free-llms) — sibling list: free LLM API tiers, free chat apps, and open-weight local models.
+- [awesome-decisions-llms](https://github.com/dakotac1994/awesome-decisions-llms) — sibling list: LLMs and systems for decision-making — decision-tuned models, decision benchmarks & evals, frameworks, and key research papers.
 
 ## Contributing
 
