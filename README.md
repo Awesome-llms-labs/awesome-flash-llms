@@ -234,6 +234,10 @@ Serve efficient open-weight models yourself — zero per-token cost after hardwa
 - [Status changes](docs/status-changes.md) — retirements and material pricing changes, newest first.
 - [Machine-readable catalog](data/models.json) / [platform catalog](data/platforms.json) — every entry with price-verification status.
 
+## Related repositories
+
+- [awesome-fast-llms](https://github.com/dakotac1994/awesome-fast-llms) — sibling list: LLM inference **speed** — low latency/TTFT and high throughput (tok/s), with every speed claim sourced, dated, and labeled vendor-reported vs independent. (This list covers cost-performance.)
+
 ## Contributing
 
 Entries and corrections are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Every PR is checked by CI: lychee link check over all markdown files, and JSON-schema validation of `data/models.json` and `data/platforms.json` (including the `price_verified` boolean and required `pricing_url` for verified prices).
